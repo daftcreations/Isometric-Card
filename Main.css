@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:royalblue;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#msg{
+    font-family: fantasy;
+    font-size: 5em;
+    color:white;
+    line-height: 70px;
+    position: absolute;
+    top:30%;
+    left: 10%;
+}
+#btn{
+    height: 35px;
+    width: 150px;
+    background-color:black;
+    font-family: fantasy;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    top:55%;
+    left: 10%;
+    cursor: pointer;
+}
+#btn::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background-color:black;
+    top:50%;
+    left: 100%;
+}
+.block{
+    width: 310px;
+    height: 210px;
+    background-color: royalblue;
+    position: absolute;
+    transform: rotateX(55deg) rotateY(0deg) rotateZ(45deg);
+    box-shadow: 13px 12px 15px -5px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+.block img{
+    width: 310px;
+    height: 210px;
+    transition: all .3s;
+}
+.block:hover img{
+    transform: translate(-3%,-3%);
+}
+.b1{
+    top:-9%;
+    right: -7%;
+}
+.b2{
+    top:6%;    
+    right: 5%; 
+}
+.b3{
+    top:21%;
+    right: 17%;
+}
+.b4{
+    top:36%;
+    right: 29%;
+}
+.b5{
+    top:51%;
+    right: 41%;
+}
+.b6{
+    top:20%;
+    right: -18%;
+}
+.b7{
+    top:35%;
+    right: -6%;
+}
+.b8{
+    top:50%;
+    right: 6%;
+}
+.b9{
+    top:65%;
+    right: 18%;
+}
+.b10{
+    top:65%;
+    right: -17%;
+}
+.b11{
+    top:79%;
+    right: -5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
